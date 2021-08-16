@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\OssClient;
-use OSS\Result\SymlinkResult;
-use OSS\Core\OssException;
-use OSS\Http\ResponseCore;
+use AliOSS\OssClient;
+use AliOSS\Result\SymlinkResult;
+use AliOSS\Core\OssException;
+use AliOSS\Http\ResponseCore;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'TestOssClientBase.php';
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Result\GetLoggingResult;
-use OSS\Http\ResponseCore;
-use OSS\Core\OssException;
+use AliOSS\Result\GetLoggingResult;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
 
 
 class GetLoggingResultTest extends \PHPUnit_Framework_TestCase

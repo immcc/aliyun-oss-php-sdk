@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\Model\LifecycleConfig;
-use OSS\Model\LifecycleRule;
-use OSS\Model\LifecycleAction;
+use AliOSS\Core\OssException;
+use AliOSS\Model\LifecycleConfig;
+use AliOSS\Model\LifecycleRule;
+use AliOSS\Model\LifecycleAction;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'TestOssClientBase.php';
 

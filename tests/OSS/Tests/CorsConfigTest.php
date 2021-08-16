@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Model\CorsConfig;
-use OSS\Model\CorsRule;
-use OSS\Core\OssException;
+use AliOSS\Model\CorsConfig;
+use AliOSS\Model\CorsRule;
+use AliOSS\Core\OssException;
 
 class CorsConfigTest extends \PHPUnit_Framework_TestCase
 {

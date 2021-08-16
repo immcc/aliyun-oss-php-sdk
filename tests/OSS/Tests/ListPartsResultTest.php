@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Result\ListPartsResult;
-use OSS\Http\ResponseCore;
+use AliOSS\Result\ListPartsResult;
+use AliOSS\Http\ResponseCore;
 
 /**
  * Class ListPartsResultTest

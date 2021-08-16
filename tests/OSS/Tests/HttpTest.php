@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Http\RequestCore;
-use OSS\Http\ResponseCore;
-use OSS\Http\RequestCore_Exception;
+use AliOSS\Http\RequestCore;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Http\RequestCore_Exception;
 use Symfony\Component\Config\Definition\Exception\Exception;
 
 class HttpTest extends \PHPUnit_Framework_TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\OssClient;
+use AliOSS\OssClient;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'Common.php';
 

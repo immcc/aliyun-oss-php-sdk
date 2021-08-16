@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\Model\RefererConfig;
+use AliOSS\Core\OssException;
+use AliOSS\Model\RefererConfig;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'TestOssClientBase.php';
 

@@ -1,10 +1,10 @@
 <?php
 require_once __DIR__ . '/Common.php';
 
-use OSS\OssClient;
-use OSS\Core\OssException;
-use OSS\Model\CorsConfig;
-use OSS\Model\CorsRule;
+use AliOSS\OssClient;
+use AliOSS\Core\OssException;
+use AliOSS\Model\CorsConfig;
+use AliOSS\Model\CorsRule;
 
 $ossClient = Common::getOssClient();
 if (is_null($ossClient)) exit(1);

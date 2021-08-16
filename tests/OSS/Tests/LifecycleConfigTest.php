@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\Model\LifecycleAction;
-use OSS\Model\LifecycleConfig;
-use OSS\Model\LifecycleRule;
+use AliOSS\Core\OssException;
+use AliOSS\Model\LifecycleAction;
+use AliOSS\Model\LifecycleConfig;
+use AliOSS\Model\LifecycleRule;
 
 class LifecycleConfigTest extends \PHPUnit_Framework_TestCase
 {

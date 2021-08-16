@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Model\WebsiteConfig;
+use AliOSS\Model\WebsiteConfig;
 
 class WebsiteConfigTest extends \PHPUnit_Framework_TestCase
 {

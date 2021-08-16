@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\Http\ResponseCore;
-use OSS\Result\ListBucketsResult;
+use AliOSS\Core\OssException;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Result\ListBucketsResult;
 
 class ListBucketsResultTest extends \PHPUnit_Framework_TestCase
 {

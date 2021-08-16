@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 require_once __DIR__ . '/Common.php';
 
-use OSS\OssClient;
+use AliOSS\OssClient;
 
 class OssClinetImageTest extends \PHPUnit_Framework_TestCase
 {

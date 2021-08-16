@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Model\RefererConfig;
+use AliOSS\Model\RefererConfig;
 
 class RefererConfigTest extends \PHPUnit_Framework_TestCase
 {

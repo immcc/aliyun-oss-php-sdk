@@ -1,14 +1,14 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 require_once __DIR__ . '/Common.php';
 
-use OSS\Model\LiveChannelInfo;
-use OSS\Model\LiveChannelListInfo;
-use OSS\Model\LiveChannelConfig;
-use OSS\Model\GetLiveChannelStatus;
-use OSS\Model\GetLiveChannelHistory;
+use AliOSS\Model\LiveChannelInfo;
+use AliOSS\Model\LiveChannelListInfo;
+use AliOSS\Model\LiveChannelConfig;
+use AliOSS\Model\GetLiveChannelStatus;
+use AliOSS\Model\GetLiveChannelHistory;
 
 class LiveChannelXmlTest extends \PHPUnit_Framework_TestCase
 {

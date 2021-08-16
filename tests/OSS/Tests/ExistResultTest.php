@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Result\ExistResult;
-use OSS\Http\ResponseCore;
-use OSS\Core\OssException;
+use AliOSS\Result\ExistResult;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
 
 class ExistResultTest extends \PHPUnit_Framework_TestCase
 {

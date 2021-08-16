@@ -1,6 +1,6 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 require_once __DIR__ . '/Common.php';
 

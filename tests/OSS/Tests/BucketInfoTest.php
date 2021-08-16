@@ -1,8 +1,8 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Model\BucketInfo;
+use AliOSS\Model\BucketInfo;
 
 /**
  * Class BucketInfoTest

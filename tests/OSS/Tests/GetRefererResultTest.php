@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Result\GetRefererResult;
-use OSS\Http\ResponseCore;
-use OSS\Core\OssException;
+use AliOSS\Result\GetRefererResult;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
 
 
 class GetRefererResultTest extends \PHPUnit_Framework_TestCase

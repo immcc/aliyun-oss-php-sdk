@@ -1,8 +1,8 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\MimeTypes;
+use AliOSS\Core\MimeTypes;
 
 class MimeTypesTest extends \PHPUnit_Framework_TestCase
 {

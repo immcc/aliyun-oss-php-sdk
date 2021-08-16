@@ -8,8 +8,8 @@ if (is_file(__DIR__ . '/../vendor/autoload.php')) {
 }
 require_once __DIR__ . '/Config.php';
 
-use OSS\OssClient;
-use OSS\Core\OssException;
+use AliOSS\OssClient;
+use AliOSS\Core\OssException;
 
 /**
  * Class Common
@@ -59,7 +59,7 @@ class Common
         } catch (OssException $e) {
 
             $message = $e->getMessage();
-            if (\OSS\Core\OssUtil::startsWith($message, 'http status: 403')) {
+            if (\AliOSS\Core\OssUtil::startsWith($message, 'http status: 403')) {
                 echo "Please Check your AccessKeyId and AccessKeySecret" . "\n";
                 exit(0);
             } elseif (strpos($message, "BucketAlreadyExists") !== false) {

@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\OssClient;
+use AliOSS\Core\OssException;
+use AliOSS\OssClient;
 
 
 class OssClientTest extends \PHPUnit_Framework_TestCase

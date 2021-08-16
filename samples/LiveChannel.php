@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/Common.php';
 
-use OSS\OssClient;
-use OSS\Model\LiveChannelConfig;
+use AliOSS\OssClient;
+use AliOSS\Model\LiveChannelConfig;
 
 $bucket = Common::getBucketName();
 $ossClient = Common::getOssClient();

@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Model\CnameConfig;
-use OSS\Core\OssException;
+use AliOSS\Model\CnameConfig;
+use AliOSS\Core\OssException;
 
 class CnameConfigTest extends \PHPUnit_Framework_TestCase
 {

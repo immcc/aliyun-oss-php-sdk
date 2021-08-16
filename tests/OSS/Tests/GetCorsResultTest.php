@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Core\OssException;
-use OSS\Result\GetCorsResult;
-use OSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
+use AliOSS\Result\GetCorsResult;
+use AliOSS\Http\ResponseCore;
 
 class GetCorsResultTest extends \PHPUnit_Framework_TestCase
 {

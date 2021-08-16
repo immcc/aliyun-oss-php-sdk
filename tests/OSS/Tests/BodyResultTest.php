@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Http\ResponseCore;
-use OSS\Result\BodyResult;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Result\BodyResult;
 
 
 class BodyResultTest extends \PHPUnit_Framework_TestCase

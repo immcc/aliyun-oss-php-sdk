@@ -1,8 +1,8 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Model\LoggingConfig;
+use AliOSS\Model\LoggingConfig;
 
 class LoggingConfigTest extends \PHPUnit_Framework_TestCase
 {

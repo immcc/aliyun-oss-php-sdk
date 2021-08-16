@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Result\GetWebsiteResult;
-use OSS\Http\ResponseCore;
-use OSS\Core\OssException;
+use AliOSS\Result\GetWebsiteResult;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
 
 class GetWebsiteResultTest extends \PHPUnit_Framework_TestCase
 {

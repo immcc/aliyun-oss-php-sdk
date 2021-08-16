@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Core\OssException;
-use OSS\Result\InitiateMultipartUploadResult;
-use OSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
+use AliOSS\Result\InitiateMultipartUploadResult;
+use AliOSS\Http\ResponseCore;
 
 class InitiateMultipartUploadResultTest extends \PHPUnit_Framework_TestCase
 {

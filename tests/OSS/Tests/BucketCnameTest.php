@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 require_once __DIR__ . '/Common.php';
 
-use OSS\Model\CnameConfig;
+use AliOSS\Model\CnameConfig;
 
 class BucketCnameTest extends \PHPUnit_Framework_TestCase
 {

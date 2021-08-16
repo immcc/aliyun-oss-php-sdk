@@ -1,10 +1,10 @@
 <?php
 require_once __DIR__ . '/Common.php';
 
-use OSS\Http\RequestCore;
-use OSS\Http\ResponseCore;
-use OSS\OssClient;
-use OSS\Core\OssException;
+use AliOSS\Http\RequestCore;
+use AliOSS\Http\ResponseCore;
+use AliOSS\OssClient;
+use AliOSS\Core\OssException;
 
 $bucket = Common::getBucketName();
 $ossClient = Common::getOssClient();

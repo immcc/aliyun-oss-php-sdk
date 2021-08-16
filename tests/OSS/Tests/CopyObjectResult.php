@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\Http\ResponseCore;
-use OSS\Result\CopyObjectResult;
+use AliOSS\Core\OssException;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Result\CopyObjectResult;
 
 class CopyObjectResultTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 require_once __DIR__ . '/Common.php';
 
-use OSS\Model\LiveChannelConfig;
-use OSS\Core\OssException;
+use AliOSS\Model\LiveChannelConfig;
+use AliOSS\Core\OssException;
 
 class BucketLiveChannelTest extends \PHPUnit_Framework_TestCase
 {

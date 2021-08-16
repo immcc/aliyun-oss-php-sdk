@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 require_once __DIR__ . '/../../../autoload.php';
 
-use OSS\OssClient;
-use OSS\Core\OssException;
+use AliOSS\OssClient;
+use AliOSS\Core\OssException;
 
 /**
  * Class Common

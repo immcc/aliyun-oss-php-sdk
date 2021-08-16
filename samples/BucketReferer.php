@@ -1,9 +1,9 @@
 <?php
 require_once __DIR__ . '/Common.php';
 
-use OSS\OssClient;
-use OSS\Core\OssException;
-use \OSS\Model\RefererConfig;
+use AliOSS\OssClient;
+use AliOSS\Core\OssException;
+use \AliOSS\Model\RefererConfig;
 
 $bucket = Common::getBucketName();
 $ossClient = Common::getOssClient();

@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Result\ListMultipartUploadResult;
-use OSS\Http\ResponseCore;
+use AliOSS\Result\ListMultipartUploadResult;
+use AliOSS\Http\ResponseCore;
 
 /**
  * Class ListMultipartUploadResultTest

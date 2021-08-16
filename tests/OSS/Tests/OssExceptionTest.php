@@ -1,8 +1,8 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
+use AliOSS\Core\OssException;
 
 class OssExceptionTest extends \PHPUnit_Framework_TestCase
 {

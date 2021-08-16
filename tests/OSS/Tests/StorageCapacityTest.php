@@ -1,10 +1,10 @@
 <?php
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Http\ResponseCore;
-use OSS\Model\StorageCapacityConfig;
-use OSS\Result\GetStorageCapacityResult;
-use OSS\Core\OssException;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Model\StorageCapacityConfig;
+use AliOSS\Result\GetStorageCapacityResult;
+use AliOSS\Core\OssException;
 
 class StorageCapacityTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Result\HeaderResult;
-use OSS\Http\ResponseCore;
+use AliOSS\Result\HeaderResult;
+use AliOSS\Http\ResponseCore;
 
 /**
  * Class HeaderResultTest

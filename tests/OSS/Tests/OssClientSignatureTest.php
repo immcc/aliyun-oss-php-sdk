@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Core\OssException;
-use OSS\Http\RequestCore;
-use OSS\Http\ResponseCore;
-use OSS\OssClient;
+use AliOSS\Core\OssException;
+use AliOSS\Http\RequestCore;
+use AliOSS\Http\ResponseCore;
+use AliOSS\OssClient;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'TestOssClientBase.php';
 

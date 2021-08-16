@@ -1,11 +1,11 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Core\OssException;
-use OSS\Core\OssUtil;
-use OSS\OssClient;
+use AliOSS\Core\OssException;
+use AliOSS\Core\OssUtil;
+use AliOSS\OssClient;
 
 class OssUtilTest extends \PHPUnit_Framework_TestCase
 {

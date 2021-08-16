@@ -1,11 +1,11 @@
 <?php
 require_once __DIR__ . '/Common.php';
 
-use OSS\OssClient;
-use OSS\Core\OssException;
-use OSS\Model\LifecycleAction;
-use OSS\Model\LifecycleConfig;
-use OSS\Model\LifecycleRule;
+use AliOSS\OssClient;
+use AliOSS\Core\OssException;
+use AliOSS\Model\LifecycleAction;
+use AliOSS\Model\LifecycleConfig;
+use AliOSS\Model\LifecycleRule;
 
 $bucket = Common::getBucketName();
 $ossClient = Common::getOssClient();

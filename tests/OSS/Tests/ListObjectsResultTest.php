@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Result\ListObjectsResult;
-use OSS\Http\ResponseCore;
+use AliOSS\Result\ListObjectsResult;
+use AliOSS\Http\ResponseCore;
 
 class ListObjectsResultTest extends \PHPUnit_Framework_TestCase
 {

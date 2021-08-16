@@ -1,12 +1,12 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
 
-use OSS\Http\ResponseCore;
-use OSS\Core\OssException;
-use OSS\Model\LifecycleConfig;
-use OSS\Result\GetLifecycleResult;
+use AliOSS\Http\ResponseCore;
+use AliOSS\Core\OssException;
+use AliOSS\Model\LifecycleConfig;
+use AliOSS\Result\GetLifecycleResult;
 
 class GetLifecycleResultTest extends \PHPUnit_Framework_TestCase
 {

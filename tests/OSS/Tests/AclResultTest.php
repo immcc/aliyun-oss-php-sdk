@@ -1,10 +1,10 @@
 <?php
 
-namespace OSS\Tests;
+namespace AliOSS\Tests;
 
-use OSS\Result\AclResult;
-use OSS\Core\OssException;
-use OSS\Http\ResponseCore;
+use AliOSS\Result\AclResult;
+use AliOSS\Core\OssException;
+use AliOSS\Http\ResponseCore;
 
 class AclResultTest extends \PHPUnit_Framework_TestCase
 {
