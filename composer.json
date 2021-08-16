@@ -1,5 +1,5 @@
 {
-    "name": "mengchenchen/aliyun-oss-php-sdk",
+    "name": "brymg/aliyun-oss-php-sdk",
     "description": "Aliyun OSS SDK for PHP (fork for swoole)",
     "homepage": "http://www.aliyun.com/product/oss/",
     "type": "library",
