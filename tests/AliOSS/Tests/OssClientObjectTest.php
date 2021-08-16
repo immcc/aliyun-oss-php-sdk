@@ -342,7 +342,7 @@ class OssClientObjectTest extends TestOssClientBase
     public function testAppendObject()
     {
         $object = "oss-php-sdk-test/append-test-object-name.txt";
-        $content_array = array('Hello OSS', 'Hi OSS', 'OSS OK');
+        $content_array = array('Hello AliOSS', 'Hi AliOSS', 'AliOSS OK');
         
         /**
          * Append the upload string
@@ -421,8 +421,8 @@ class OssClientObjectTest extends TestOssClientBase
          * Append upload with option
          */
         try {
-            $position = $this->ossClient->appendObject($this->bucket, $object, "Hello OSS, ", 0, $options);
-            $position = $this->ossClient->appendObject($this->bucket, $object, "Hi OSS.", $position);
+            $position = $this->ossClient->appendObject($this->bucket, $object, "Hello AliOSS, ", 0, $options);
+            $position = $this->ossClient->appendObject($this->bucket, $object, "Hi AliOSS.", $position);
         } catch (OssException $e) {
             $this->assertFalse(true);
         }
@@ -512,7 +512,7 @@ class OssClientObjectTest extends TestOssClientBase
     	}
 
     	$object = "oss-php-sdk-test/append-test-object-name.txt";
-    	$content_array = array('Hello OSS', 'Hi OSS', 'OSS OK');
+    	$content_array = array('Hello AliOSS', 'Hi AliOSS', 'AliOSS OK');
     	$options = array(OssClient::OSS_CHECK_MD5 => true);
     	
     	/**

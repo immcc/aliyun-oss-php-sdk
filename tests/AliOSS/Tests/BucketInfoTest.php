@@ -6,7 +6,7 @@ use AliOSS\Model\BucketInfo;
 
 /**
  * Class BucketInfoTest
- * @package OSS\Tests
+ * @package AliOSS\Tests
  */
 class BucketInfoTest extends \PHPUnit_Framework_TestCase
 {

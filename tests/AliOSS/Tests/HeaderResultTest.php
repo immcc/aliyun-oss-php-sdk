@@ -7,7 +7,7 @@ use AliOSS\Http\ResponseCore;
 
 /**
  * Class HeaderResultTest
- * @package OSS\Tests
+ * @package AliOSS\Tests
  */
 class HeaderResultTest extends \PHPUnit_Framework_TestCase
 {

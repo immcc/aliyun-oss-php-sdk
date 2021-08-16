@@ -7,7 +7,7 @@ use AliOSS\Http\ResponseCore;
 
 /**
  * Class ListMultipartUploadResultTest
- * @package OSS\Tests
+ * @package AliOSS\Tests
  */
 class ListMultipartUploadResultTest extends \PHPUnit_Framework_TestCase
 {
